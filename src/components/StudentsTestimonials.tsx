@@ -55,6 +55,7 @@ const StudentsTestimonials = () => {
         <div className="relative">
           {testimonials.map((testimonial, index) => (
             <TestimonialsCard
+              animate={false}
               key={index}
               name={testimonial.name}
               review={testimonial.review}
