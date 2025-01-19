@@ -9,7 +9,7 @@ const TetimonialsSection = () => {
   const handleShowMore = () => {
     setShowMore(!showMore);
   };
-  const testimonialsCards = showMore ? testimonials: testimonials.slice(0, 4) ;
+  const testimonialsCards = showMore ? testimonials : testimonials.slice(0, 4);
   return (
     <div id="testimoinals" className="custom-container mt-[50px] lg:mt-[100px]">
       <SectionTitle
@@ -26,6 +26,7 @@ const TetimonialsSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
         {testimonialsCards.map((element, index) => (
           <TestimonialsCard
+            animate
             key={index}
             name={element.name}
             review={element.review}
