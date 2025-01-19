@@ -1,3 +1,21 @@
+import image from "./../assets/img/Courses/Image.png"
+import image1 from "./../assets/img/Courses/Image1.png"
+import image2 from "./../assets/img/Courses/Image2.png"
+import image3 from "./../assets/img/Courses/Image3.png"
+import image4 from "./../assets/img/Courses/Image4.png"
+import image5 from "./../assets/img/Courses/Image5.png"
+import image6 from "./../assets/img/Courses/Image6.png"
+import image7 from "./../assets/img/Courses/Image7.png"
+import image8 from "./../assets/img/Courses/Image8.png"
+import image9 from "./../assets/img/Courses/Image9.png"
+import image10 from "./../assets/img/Courses/Image10.png"
+import image11 from "./../assets/img/Courses/Image11.png"
+import image12 from "./../assets/img/Courses/Image12.png"
+import image13 from "./../assets/img/Courses/Image13.png"
+import image14 from "./../assets/img/Courses/Image14.png"
+import image15 from "./../assets/img/Courses/Image15.png"
+import image16 from "./../assets/img/Courses/Image16.png"
+
 interface Course {
   id: number;
   course_title: string;
@@ -41,9 +59,9 @@ export const courses: Course[] = [
     course_duration: "4 Weeks",
     level: level.Beginner,
     author: "By John Smith",
-    image1: "src/assets/img/Courses/image2.png",
-    image2: "src/assets/img/Courses/image1.png",
-    image3: "src/assets/img/Courses/image.png",
+    image1: image2,
+    image2: image1,
+    image3: image,
     curriclum: [
       {
         id: 1,
@@ -195,9 +213,9 @@ export const courses: Course[] = [
     course_duration: "6 Weeks",
     level: level.Intermediate,
     author: "By Emily Johnson",
-    image1: "src/assets/img/Courses/image3.png",
-    image2: "src/assets/img/Courses/image4.png",
-    image3: "src/assets/img/Courses/image5.png",
+    image1: image3,
+    image2: image4,
+    image3: image5,
     curriclum: [
       {
         id: 1,
@@ -349,9 +367,9 @@ export const courses: Course[] = [
     course_duration: "8 Weeks",
     level: level.Intermediate,
     author: "By David Brown",
-    image1: "src/assets/img/Courses/image6.png",
-    image2: "src/assets/img/Courses/image7.png",
-    image3: "src/assets/img/Courses/image8.png",
+    image1: image6,
+    image2: image7,
+    image3: image8,
     curriclum: [
       {
         id: 1,
@@ -504,9 +522,9 @@ export const courses: Course[] = [
     course_duration: "10 Weeks",
     level: level.Beginner,
     author: "By Sarah Thompson",
-    image1: "src/assets/img/Courses/image11.png",
-    image2: "src/assets/img/Courses/image10.png",
-    image3: "src/assets/img/Courses/image9.png",
+    image1: image11,
+    image2: image10,
+    image3: image9,
     curriclum: [
       {
         id: 1,
@@ -658,9 +676,9 @@ export const courses: Course[] = [
     course_duration: "10 Weeks",
     level: level.Intermediate,
     author: "By Michael Adams",
-    image1: "src/assets/img/Courses/image12.png",
-    image2: "src/assets/img/Courses/image13.png",
-    image3: "src/assets/img/Courses/image14.png",
+    image1: image12,
+    image2: image13,
+    image3: image14,
     curriclum: [
       {
         id: 1,
@@ -812,9 +830,9 @@ export const courses: Course[] = [
     course_duration: "6 Weeks",
     level: level.Advanced,
     author: "By Jennifer Wilson",
-    image1: "src/assets/img/Courses/image15.png",
-    image2: "src/assets/img/Courses/image16.png",
-    image3: "src/assets/img/Courses/image.png",
+    image1: image15,
+    image2: image16,
+    image3: image,
     curriclum: [
       {
         id: 1,
@@ -966,9 +984,9 @@ export const courses: Course[] = [
     course_duration: "12 Weeks",
     level: level.Advanced,
     author: "By Axl Rose",
-    image1: "src/assets/img/Courses/image5.png",
-    image2: "src/assets/img/Courses/image7.png",
-    image3: "src/assets/img/Courses/image10.png",
+    image1: image5,
+    image2: image7,
+    image3: image10,
     curriclum: [
       {
         id: 1,
