@@ -38,8 +38,9 @@ const CoursesOpenPageSection = () => {
           <VideoIconTag />
         </Video>
         <div className="grid gap-5 lg:grid-cols-2 custom-2xl:gap-[30px] mt-[50px] lg:mt-20 custom-2xl:mt-[100px]">
-          {openCourse.curriclum.map((item) => (
+          {openCourse.curriclum.map((item, index) => (
             <MainCoursesCard
+              key={index}
               topic={item.topic}
               info={item.info}
               unit={item.unit}
